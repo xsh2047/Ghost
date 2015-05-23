@@ -1,4 +1,62 @@
+@font-face{
+	font-family: "roundy";
+    src: url("fonts/EddieRounded.ttf");
+}
+
+@font-face{
+	font-family: "simplicity";
+	src: url("fonts/Simplicity.ttf");
+}
+
+header{
+	background-image: url("background.jpg");
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color:gray;
+	font-size: 200%;
+	font-family: "roundy";
+	padding: 5% 5% 10% 5%;
+}
+
 body{
-	background: #74AFAD;
-	font-family: "arial";
+	background: #fbfcfc;
+	color: black;
+	margin: 0;
+}
+
+
+nav ul{
+	padding: 10% 0 0 15%;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 2%;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+	font-size: 110%;
+}
+
+a#signup{
+	color: blue;
+}
+
+div.body{
+	font-family: "simplicity";
+	font-size: 150%;
+	padding : 3%;
+}
+
+footer{
+	font-family: "simplicity";
+	padding: 1% 0% 0% 50%;
+	background: #D5E3DC;
 }
